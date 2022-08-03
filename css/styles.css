@@ -98,3 +98,34 @@
 .form-label{
     line-height: 20px;
 }
+.sectionSolucao {
+    height: 100vh;
+    width: 100%;
+    background-color: #009E0B;
+}
+.solucaoCima {
+
+
+}
+
+.solucaoBaixo{
+
+
+}
+
+@media screen and (max-width: 720px ){
+    .container{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .caixaCentral{
+        margin-top: 0px;
+        padding-top: 100px;
+    }
+    .equilibreNav img{
+        height: 60px;
+        margin-left: 20px;
+    }
+}
