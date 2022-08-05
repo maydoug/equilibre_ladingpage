@@ -46,13 +46,12 @@
 }
 
 .caixaCentral {
-    height: 50%;
-    margin-top: 200px;
-    margin-right: 180px;
+    margin-top: 150px;
+    margin-right: 120px;
 }
 
 .caixaImg {
-    margin-top: 200px;
+    margin-top: 150px;
     height: 60vh;
     width: 100%;
 }
@@ -68,7 +67,9 @@
 .form-control {
     width: 280px;
 }
-
+.lgpd p{
+    font-size: 10px;
+}
 .btnSaiba {
     margin-top: 20px;
     border-radius: 30px;
@@ -113,8 +114,18 @@
     padding: 100px;
     margin-left: 50px;
 }
+.solucaoText h2{
+    color: #009E0B;
+    font-size: 26px;
+}
 .solucaoCima img{
     border-radius: 10px;
+}
+
+.vsPrincipal {
+    height: 30vh;
+    width: 100%;
+    background-color: #575958;
 }
 /* -------------------------container-skills-------------------*/
 
@@ -131,7 +142,7 @@
 
 .container-inlane-overview {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: center;
     margin: 5% 0;
     padding: 10px ;
@@ -139,7 +150,7 @@
 
 .card-skills {
     background-color: #f6f9f9;
-    width: 200px;
+    width: 180px;
     position: relative;
     border-radius: 7px;
     padding: 40px 10px 10px 10px;
@@ -186,16 +197,37 @@
     }
 
     .caixaCentral{
-        margin-top: 0px;
+        margin-top: 0;
         padding-top: 100px;
+        margin-right: 20px;
+    }
+    .caixaImg{
+        margin-top: 60px ;
     }
     .equilibreNav img{
         height: 60px;
         margin-left: 20px;
     }
+
     .solucaoCima{
         display: block;
         margin-left: 5px;
         margin-right: 5px;
     }
+    .solucaoCima img{
+        border-radius: 10px;
+        height: 215px;
+    }
+    .solucaoText{
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+.container-inlane-overview {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 5% 0;
+    padding: 10px ;
+}
 }
