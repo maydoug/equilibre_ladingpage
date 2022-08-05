@@ -103,15 +103,80 @@
     width: 100%;
     background-color: #009E0B;
 }
-.solucaoCima {
+.solucaoCima{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.solucaoText{
+    padding: 100px;
+    margin-left: 50px;
+}
+.solucaoCima img{
+    border-radius: 10px;
+}
+/* -------------------------container-skills-------------------*/
 
-
+.container-skills {
+    background-color: white;
+    display: block;
+    padding: 5% 10px;
 }
 
-.solucaoBaixo{
-
-
+.container-skills article {
+    max-width: 800px;
+    margin: auto;
 }
+
+.container-inlane-overview {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin: 5% 0;
+    padding: 10px ;
+}
+
+.card-skills {
+    background-color: #f6f9f9;
+    width: 200px;
+    position: relative;
+    border-radius: 7px;
+    padding: 40px 10px 10px 10px;
+    margin: 10px;
+}
+.card-skills img{
+   margin-left: 70px;
+   margin-bottom: 20px;
+}
+
+.icon-area-ti {
+    background-color: #14998c;
+    color: #fff;
+    font-size: 40px;
+    width: 85px;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.card-skills h4 {text-align: center;}
+
+.container-skills a {
+    text-decoration: none;
+    color: #4028db;
+}
+
+.container-skills a:hover {text-decoration: underline;}
+/*listcard */
+
+/* ---------------------- ** FIM ** --------------------------- */
+
 
 @media screen and (max-width: 720px ){
     .container{
@@ -127,5 +192,10 @@
     .equilibreNav img{
         height: 60px;
         margin-left: 20px;
+    }
+    .solucaoCima{
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
